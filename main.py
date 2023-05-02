@@ -28,6 +28,8 @@ test = Test(add_function = add)
 print(test.add_function(10,65)) # a + b passed
 '''
 
+
+'''
 #Pratice
 
 class Monster:
@@ -54,6 +56,8 @@ monster = Monster(func = Attacks().bite) #make Attacks into an object by adding 
 attacks = Attacks()
 monster = Monster(func = attacks.bite)
 monster.func()
+'''
+
 
   
 
